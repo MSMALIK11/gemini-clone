@@ -14,7 +14,7 @@ const SideBar = () => {
 
     }
     return (
-        <div id="sidebar" className=' bg-primary inline-flex justify-between flex-col '>
+        <div id="sidebar" className=' bg-primary lg:inline-flex md:inline-flex hidden justify-between flex-col '>
             <div className='top'>
                 <div className='menu' tabIndex={0} onClick={onToggleExpanded}>
                     <MenuIcon />
